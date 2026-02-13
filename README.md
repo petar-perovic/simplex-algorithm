@@ -73,13 +73,13 @@ Z = c_1 x_1 + c_2 x_2 + ... + c_n x_n
 Subject to:
 
 \[
-a_{11}x_1 + a_{12}x_2 + ... \le b_1
+a_{11}x_1 + a_{12}x_2 + ... <= b_1
 \]
 
 All constraints must be of type:
 
 \[
-\le
+<=
 \]
 
 ---
@@ -97,14 +97,14 @@ Z = 3x_1 + 5x_2
 Subject to:
 
 \[
-2x_1 + x_2 \le 8
+2x_1 + x_2 <= 8
 \]
 \[
-x_1 + 2x_2 \le 8
+x_1 + 2x_2 <= 8
 \]
 
 \[
-x_1, x_2 \ge 0
+x_1, x_2 >= 0
 \]
 
 ---
